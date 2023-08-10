@@ -1,0 +1,17 @@
+.question_name_show{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(190, 0, 0);
+}
+
+.question_option{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+#question_option4{
+    margin-bottom: 20px;
+}

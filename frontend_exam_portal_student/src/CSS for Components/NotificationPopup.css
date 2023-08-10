@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#popupModal{
+    position: absolute;
+    z-index: 101;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+    border-radius: 15px;
+}
+
+#popupModal.loading {
+  opacity: 0;
+  transition: 0.5s all ease-in-out;
+}
+
+#popupModal.active {
+  opacity: 1;
+  transition: 0.5s all ease-in-out;
+}
+
+.popupParentContainer{
+    position: relative;
+    white-space: nowrap;
+    color: white;
+}
+
+#deletePopup{
+    position: absolute;
+    right: 0;
+    padding: 4px 8px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#popUpData{
+    font-family: 'Heebo', sans-serif;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,55 @@
+.addExamMainParent{
+    padding: 20px;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.addExamContainer{
+    overflow: auto;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+/* Width and height for the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.addQuestionForm{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.questionList{
+    margin-right: 5px;
+    margin-top: 30px;
+    background-color: white;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}

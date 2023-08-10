@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.allMenuParent{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    font-family: 'Heebo', sans-serif;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Width and height for the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.allMenuLeftSideContainer{
+    /* width: 20%; */
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(86, 101, 122);
+    padding-top: 15px;
+    border-radius: 20px;
+    /* margin-left: 3%; */
+    margin-top: 2.5%;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 0.5s all ease-in-out;
+}
+
+.allMenuRightSideContainer{
+    /* width: 70%; */
+    height: 75vh;
+    background-color: rgb(86, 101, 122);
+    /* margin-left: 60px; */
+    border-radius: 20px;
+    margin-top: 2.5%;
+    position: relative;
+    animation: transitionIn 2s;
+    scroll-behavior: smooth;
+    transition: 0.5s all ease-in-out;
+}
+
+.allMenuLeftSideContainerButton{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    margin: 25px 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+}
+
+.allMenuLeftSideContainerButton:hover{
+    box-shadow: rgb(30, 30, 46) 0px 50px 100px -20px, rgba(0, 0, 0, 0.9) 0px 30px 60px -30px, rgba(10, 37, 64, 0.87) 0px -6px 10px 0px inset;
+}
+
+#loginSignUpButton{
+    background-color: rgb(3, 196, 3);
+    color: white;
+}
+
+#logoutButton{
+    background-color: red;
+    color: white;
+}

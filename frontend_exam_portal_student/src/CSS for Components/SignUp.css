@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+#signupParent{
+    font-family: 'Heebo', sans-serif;
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    border-radius: 30px;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out
+}
+
+#signupParent h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(86, 101, 122);
+    font-family: 'Russo One', sans-serif;
+}
+
+#lineUnderH2{
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(86, 101, 122);
+    position: absolute;
+    left: 150px;
+}
+
+.aboutForm{
+    margin-bottom: 30px;
+}
+
+#signUp{
+    cursor: pointer;
+}
+
+#signUp:hover{
+    color: purple;
+}
+
+.normalInput{
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    outline: none;
+    border: 0px solid black;
+    border-radius: 15px;
+    padding: 5px 6px;
+    margin: 10px 0;
+    font-size: 18px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    background-color: rgb(86, 101, 122);
+    color: white;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: white;
+}
+
+.signupbtn{
+    font-family: 'Heebo', sans-serif;
+    float: right;
+    outline: none;
+    padding: 10px 15px;
+    background-color: rgb(86, 101, 122);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0px solid rgb(106, 106, 106);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -6px 6px 0px inset, rgba(0, 0, 0, 0.15) 0px -6px 6px 0px inset, rgba(0, 0, 0, 0.1) 0px -6px 6px 0px inset, rgba(0, 0, 0, 0.06) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.signupbtn:hover{
+    transform: scale(1.1);
+}
+
+.dontHave{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.dontHave p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#signUpBox{
+    padding: 0px 20px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.genderSelection{
+    display: flex;
+    width: 150px;
+    font-weight: 500;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.genderContainer{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.genderSelection p{
+    margin-top: 13px;
+    color: rgb(58, 58, 58);
+    padding-right: 20px;
+}
+
+.genderSelection label{
+    padding-left: 5px;
+    color: rgb(58, 58, 58);
+    padding-top: 13px;
+    padding-right: 20px;
+}
+
+.genderSelection input{
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+#loginBox{
+    padding: 0px 20px;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-0%, -50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.loginbtn{
+    font-family: 'Heebo', sans-serif;
+    float: right;
+    outline: none;
+    padding: 10px 15px;
+    background-color: rgb(86, 101, 122);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 0px solid rgb(106, 106, 106);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -6px 6px 0px inset, rgba(0, 0, 0, 0.15) 0px -6px 6px 0px inset, rgba(0, 0, 0, 0.1) 0px -6px 6px 0px inset, rgba(0, 0, 0, 0.06) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.loginbtn:hover{
+    transform: scale(1.1);
+}

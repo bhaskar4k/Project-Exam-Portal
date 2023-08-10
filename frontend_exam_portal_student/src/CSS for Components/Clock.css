@@ -1,0 +1,12 @@
+.curTimer{
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    bottom: 0;
+    margin-bottom: 15px;
+}

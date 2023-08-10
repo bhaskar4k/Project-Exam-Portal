@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.parentContainer{
+    font-family: 'Heebo', sans-serif;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.childContainer{
+    width: 30%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.childContainer:hover {
+    box-shadow: rgba(255, 255, 255, 0.442) 0px 2px 30px 4px;
+    transform: scale(1.01);
+}
+
+.studentCount{
+    margin-left: 20px;
+}
+
+.upcomingExamCount{
+    margin-left: 20px;
+}
+
+.completedExamCount{
+    margin-left: 20px;
+}
+
+.childContainerInfo{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(86, 101, 122);
+    color: white;
+    padding-top: 50px;
+}
