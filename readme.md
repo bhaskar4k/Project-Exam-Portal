@@ -24,7 +24,7 @@ An exam portal which has two separate react app, one for admin access and one fo
 - Initially the color of the timer will be green and will start being orange then deep orange then red parrallelly with the timer while timer is going down and color of timer will also be changed. Green means enough time, orange means time is going down, deep orange means 50% time crossed, red mean timer is about to end.
 - Student can view result of the exams which he/she has participated and can see his/her score and also can see which is the correct answer.
 
-# In app notification system
+# In app notification system and all validation
 - Made a system where app will show notification of different tasks. Notification is basically are of three color.
 - Red : means danger/error
 - Orange : Warning
