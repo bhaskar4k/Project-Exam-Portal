@@ -26,7 +26,7 @@ An exam portal which has two separate react app, one for admin access and one fo
 
 # In app notification system and all validation
 - Made a system where app will show notification of different tasks. Notification is basically are of three color.
-- Red : means danger/error
+- Red : Danger/Error
 - Orange : Warning
 - Green : Success
   - While registration if the email is already registered then a red popup will arise and say "Email {email@gmail.com} is registered already"
