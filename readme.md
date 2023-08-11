@@ -1,6 +1,8 @@
 # Exam Portal
 An exam portal which has two separate react app, one for admin access and one for student
 
+# Live walkthrough video of this project : https://youtu.be/hyR9b4N1NEA 
+
 # Tech Stack
 - Frontend : React.js, JavaScript, CSS
 - Backend : JAVA, Rest API, JDBC, SQL
@@ -37,3 +39,5 @@ An exam portal which has two separate react app, one for admin access and one fo
   - Correct option of any question will be 1/2/3/4 and if you put other values then an orange popup will arise and say "Which question's correct option is not written properly"
   - If any question's any field is empty(such as question description/correct option/correct answer) then an orange popup will arise and say "Which question's field is empty"
   - Keeping any field empty or not in proper format(mentioned there) admin won't be able to set exam
+  - Rest of this there is welcome popup then popup after attending exam and there are so many notifications according to user's activity
+
