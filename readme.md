@@ -32,7 +32,7 @@ An exam portal which has two separate react app, one for admin access and one fo
   - While registration if the email is already registered then a red popup will arise and say "Email {email@gmail.com} is registered already"
   - If any field is empty or not in proper format while registration/login then an orange popup wiil arise and say "Please fillup all field data"
   - While login if email and password doesn't match with any records in database then a red popup will arise and say "Incorrect credentials/wrong email/password"
-  - While uploading profile photo is the uploaded file is not an image file or the image file size is greater than 1MB then an orange popup will arise and say "Uploaded file should be an image file" or "Image file size should be less then 1Mb"
+  - While uploading profile photo if the uploaded file is not an image file or the image file size is greater than 1MB then an orange popup will arise and say "Uploaded file should be an image file" or "Image file size should be less then 1Mb"
   - While setting exam if exam duration is not in proper format which has been mentioned there then an orange popup will arise and say "Please fillup exam duration in correct format"
   - Correct option of any question will be 1/2/3/4 and if you put other values then an orange popup will arise and say "Which question's correct option is not written properly"
   - If any question's any field is empty(such as question description/correct option/correct answer) then an orange popup will arise and say "Which question's field is empty"
