@@ -1,6 +1,11 @@
 # Exam Portal
 An exam portal which has two separate react app, one for admin access and one for student
 
+# Tech Stack
+- Frontend : React.js, JavaScript, CSS
+- Backend : JAVA, Rest API, JDBC, SQL
+- Database : MySQL
+
 # Accessibility of Admin 
 - An admin can register himself and login. After login he/she can update his profile information and profile photo also.
 - Admin can schedule new exam where admin has to put exam name, exam duration in proper format(format mentioned over there) and question count and then each question should have a question description then four option then one correct option.
