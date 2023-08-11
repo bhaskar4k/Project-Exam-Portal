@@ -27,7 +27,7 @@ An exam portal which has two separate react app, one for admin access and one fo
 - Student can view result of the exams which he/she has participated and can see his/her score and also can see which is the correct answer.
 
 # In app notification system and all validation
-- Made a system where app will show notification of different tasks based on user's activity. Notification is basically are of three color.
+- Made a system where app will show notification of different tasks based on user's activity and validation. Notification is basically are of three color.
 - Red : Danger/Error
 - Orange : Warning
 - Green : Success
