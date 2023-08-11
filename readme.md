@@ -13,12 +13,12 @@ An exam portal which has two separate react app, one for admin access and one fo
 - After getting the data I just manipulated the react app using DOM manipulation using JavaScript or React state management which updates data in webpage without reloading.
 
 # Features of Admin 
-- An admin can register himself and login. After login he/she can update his profile information and profile photo also.
+- An admin can register himself/herself and login. After login he/she can update his profile information and profile photo also.
 - Admin can schedule new exam where admin has to put exam name, exam duration in proper format(format mentioned over there) and question count then question_count number of question container will be loaded and then each question container should have a question description then four option then one correct option.
 - Admin can view already scheduled exam by himself/herself and can also view result where result will be generated after any participation of student in any exam set by that admin.
 
 # Features of Student
-- A student can register himself and login. After login he/she can update his profile information and profile photo also.
+- A student can register himself/herself and login. After login he/she can update his profile information and profile photo also.
 - Student can participated on any exam scheduled by different admins.
 - When a student will click on start exam button then the screen will go full and he/she can't undo the full screen and a clock timer will be started. Student has to submit the exam within the time duration set by admin. If he/she doesn't submit during the time duration then exam will be auto-submitted when timer will become 00:00:00.
 - Initially the color of the timer will be green and will start being orange then deep orange then red parrallelly with the timer while timer is going down and color of timer will also be changed. Green means enough time, orange means time is going down, deep orange means 50% time crossed, red mean timer is about to end.
