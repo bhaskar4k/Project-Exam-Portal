@@ -8,7 +8,7 @@ An exam portal which has two separate react app, one for admin access and one fo
 
 # Functionality
 - Two separate react app. One for admin and one for student and the whole backend is based on Rest API. 
-- Whatever database/backend operation I needed, I created a Rest API for each of them and from the frontend I just hit the API endpoint hosted in localhost and get the data in JSON format/string and send the data in JSON format/string.
+- Whatever database/backend operation I needed, I created a Rest API for each of them and from the frontend I just hit the API endpoint hosted in localhost and get the data in JSON format/string or send the data in JSON format/string.
 - For each Rest API I've written logic of backend to fetch records from database or create/update/delete whatever I needed.
 - After getting the data I just manipulated the react app using DOM manipulation using JavaScript or React state management which updates data in webpage without reloading.
 
